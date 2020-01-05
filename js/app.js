@@ -29,10 +29,9 @@ function navCheck(entries) {
       bubble.style.setProperty('top', `${directions.top}px`);
       bubble.style.setProperty('width', `${directions.width}px`);
       bubble.style.setProperty('height', `${directions.height}px`);
+      activeAnchor.style.setProperty('color', '#000');
       bubble.style.background = gradients[gradientIndex];
     }
-
-
   });
 }
 
